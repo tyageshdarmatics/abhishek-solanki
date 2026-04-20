@@ -15,8 +15,10 @@ import {
 const RESUME_URL =
   "https://drive.google.com/file/d/1ELzEXgBR0xpJQ6cERQfmfRc4g0HdLrth/view";
 const FORM_URL = "https://forms.gle/7PGQ2Ywjpm9viVc77";
-const LINKEDIN_URL = "https://www.linkedin.com/in/abhi-solanki/";
-const INSTAGRAM_URL = "https://www.instagram.com/abhi_solanki_95/";
+const LINKEDIN_URL =
+  "https://www.linkedin.com/in/abhi-solanki?utm_source=share_via&utm_content=profile&utm_medium=member_android";
+const INSTAGRAM_URL =
+  "https://www.instagram.com/abhi_solanki_1012?igsh=OWZud3Y2YnEyMmg4";
 const EMAIL = "abhisolanki9508@gmail.com";
 const PHONE_DISPLAY = "+91 98254 06579";
 const PHONE_HREF = "tel:+919825406579";
@@ -65,16 +67,19 @@ const QuickLink = ({
 
 const Contact = () => {
   return (
-    <section id="contact" className="relative overflow-hidden py-24 md:py-32">
-      <div aria-hidden className="absolute inset-0 -z-10 bg-gradient-ink" />
+    <section
+      id="contact"
+      className="relative overflow-hidden py-24 md:py-32 bg-gradient-ink"
+    >
       <div
         aria-hidden
-        className="absolute -top-32 -right-24 h-96 w-96 rounded-full bg-accent/20 blur-3xl -z-10"
+        className="pointer-events-none absolute -top-32 -right-24 h-96 w-96 rounded-full bg-accent/20 blur-3xl"
       />
       <div
         aria-hidden
-        className="absolute -bottom-40 -left-24 h-96 w-96 rounded-full bg-highlight/15 blur-3xl -z-10"
+        className="pointer-events-none absolute -bottom-40 -left-24 h-96 w-96 rounded-full bg-highlight/15 blur-3xl"
       />
+
 
       <div className="container-narrow text-primary-foreground">
         {/* Header */}
