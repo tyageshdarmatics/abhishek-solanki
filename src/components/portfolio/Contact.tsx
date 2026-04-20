@@ -67,16 +67,19 @@ const QuickLink = ({
 
 const Contact = () => {
   return (
-    <section id="contact" className="relative overflow-hidden py-24 md:py-32">
-      <div aria-hidden className="absolute inset-0 -z-10 bg-gradient-ink" />
+    <section
+      id="contact"
+      className="relative overflow-hidden py-24 md:py-32 bg-gradient-ink"
+    >
       <div
         aria-hidden
-        className="absolute -top-32 -right-24 h-96 w-96 rounded-full bg-accent/20 blur-3xl -z-10"
+        className="pointer-events-none absolute -top-32 -right-24 h-96 w-96 rounded-full bg-accent/20 blur-3xl"
       />
       <div
         aria-hidden
-        className="absolute -bottom-40 -left-24 h-96 w-96 rounded-full bg-highlight/15 blur-3xl -z-10"
+        className="pointer-events-none absolute -bottom-40 -left-24 h-96 w-96 rounded-full bg-highlight/15 blur-3xl"
       />
+
 
       <div className="container-narrow text-primary-foreground">
         {/* Header */}
