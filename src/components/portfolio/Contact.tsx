@@ -15,8 +15,10 @@ import {
 const RESUME_URL =
   "https://drive.google.com/file/d/1ELzEXgBR0xpJQ6cERQfmfRc4g0HdLrth/view";
 const FORM_URL = "https://forms.gle/7PGQ2Ywjpm9viVc77";
-const LINKEDIN_URL = "https://www.linkedin.com/in/abhi-solanki/";
-const INSTAGRAM_URL = "https://www.instagram.com/abhi_solanki_95/";
+const LINKEDIN_URL =
+  "https://www.linkedin.com/in/abhi-solanki?utm_source=share_via&utm_content=profile&utm_medium=member_android";
+const INSTAGRAM_URL =
+  "https://www.instagram.com/abhi_solanki_1012?igsh=OWZud3Y2YnEyMmg4";
 const EMAIL = "abhisolanki9508@gmail.com";
 const PHONE_DISPLAY = "+91 98254 06579";
 const PHONE_HREF = "tel:+919825406579";
